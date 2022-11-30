@@ -6,7 +6,7 @@ function add_quickref_item(parent, data, type) {
     var item = document.createElement("div");
     item.className += "item itemsize"
     item.innerHTML =
-    '\
+        '\
     <div class="item-icon iconsize icon-' + icon + '"></div>\
     <div class="item-text-container text">\
         <div class="item-title">' + title + '</div>\
@@ -57,7 +57,7 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
+    fill_section(data_movement, "basic-movement", "Mover");
     fill_section(data_action, "basic-actions", "Action");
     fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
     fill_section(data_reaction, "basic-reactions", "Reaction");
