@@ -4,7 +4,7 @@ data_movement = [
         icon: "run",
         subtitle: "Coste: 5 pies cada 5 pies",
         description: "Coste del movimiento: 5 pies cada 5 pies movidos",
-        reference: "Manual del Jugador, pg. 186.",
+        reference: "Manual del Jugador, pg. 186, capítulo 8: Combate",
         bullets: [
             "Si posees más de una velocidad (como Velocidad Caminando y Velocidad Volando) puedes cambiar entre una y otra durante tu movimiento. Cada vez que lo hagas, resta la distancia que ya te has movido de la nueva velocidad. Lo que quede será lo que aún te puedes mover.",
             "Puedes moverte atravesando el espacio ocupado por otra criatura no hostil.",
@@ -18,107 +18,107 @@ data_movement = [
         icon: "crags",
         subtitle: "Coste: 10 pies cada 5 pies",
         description: "Coste del movimiento: 10 pies cada 5 pies trepados",
-        reference: "Manual del Jugador, pg. 178.",
+        reference: "Manual del Jugador, pg. 178, capítulo 7: Aventuras",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Puede involucrar una Prueba de Fuerza (Atletismo) si trepar la superfície es dificil"
         ]
     },
     {
-        title: "Swim",
+        title: "Nadar",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
-        reference: "PHB, pg. 182.",
+        subtitle: "Coste: 10 pies cada 5 pies",
+        description: "Coste del movimiento: 10 pies cada 5 pies nadados",
+        reference: "Manual del Jugador, pg. 178, capítulo 7: Aventuras",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Puede involucrar una Prueba de Fuerza (Atletismo) si nadar por el entorno es dificil"
         ]
     },
     {
-        title: "Drop prone",
+        title: "Tirarte al Suelo",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        subtitle: "Coste: 0 pies",
+        description: "Coste del movimiento: 0 pies (gratis)",
+        reference: "Manual del Jugador, pgs. 186-187,285, capítulo 8: Combate; Apéndice A: Estados",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Puedes tirarte al suelo voluntariamente sin tener que gastar parte de tu velocidad.",
+            "Para moverte estando <i>Derribado</i>, deberás arrastrarte o recurrir a efectos mágicos como la teletransportación.",
+            "Tirarte al suelo añade el Estado <i>Derribado</i> (los ataques cuerpo a cuerpo contra ti tienen ventaja, los ataques a distancia contra ti tienen desventaja, tus propios ataques tienen desventaja)"
         ]
     },
     {
-        title: "Crawl",
+        title: "Arrastrarse",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
+        subtitle: "Coste: 10 pies cada 5 pies",
+        description: "Coste del movimiento: 10 pies cada 5 pies arrastrados",
+        reference: "Manual del Jugador, pg. 178, capítulo 7: Aventuras",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "Levantarse",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        subtitle: "Coste: la mitad de la Velocidad",
+        description: "Coste del Movimiento: la mitad de tu Velocidad",
+        reference: "Manual del Jugador, pgs. 186-187, capítulo 8: Combate",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "No podrás levantarte si no tienes suficiente movimiento restante o si tu velocidad es 0."
         ]
     },
     {
-        title: "High jump",
+        title: "Salto de Altura",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Coste: 5 pies cada 5 pies",
+        description: "Coste del movimiento: 5 pies cada 5 pies saltados",
 
-        reference: "PHB, pg. 182.",
+        reference: "Manual del Jugador, pg. 178, capítulo 7: Aventuras",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "Cuando haces un salto de altura ascenderás tantos pies como tu Modificador de Fuerza +3 (como mínimo 0 pies) si te mueves al menos 10 pies antes de saltar.",
+            "Si saltas sin haber cogido carrerilla solo alcanzarás la mitad de esa distancia",
+            "Puedes estirar los brazos una distancia equivalente a la mitad de tu altura (no la de tu salto) por encima de ti.",
+            "A veces el DM te permitirá hacer una Prueba de Fuerza (Atletismo) para saltar más alto de lo que normalmente podrías."
         ]
     },
     {
-        title: "Long jump",
+        title: "Salto de Longitud",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        reference: "PHB, pg. 182.",
+        subtitle: "Coste: 5 pies cada 5 pies",
+        description: "Coste del movimiento: 5 pies cada 5 pies saltados",
+        reference: "Manual del Jugador, pg. 178, capítulo 7: Aventuras",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "Cuando hagas un salto de longitud avanzarás tantos pies como tu <b>Puntuación de Fuerza</b> si te mueves al menos 10 pies antes de saltar",
+            "Si saltas sin haber cogido carrerilla solo recorrerás la mitad de esa distancia",
+            "Si el DM así lo juzga, tendrás que superar una Prueba de Fuerza (Atletismo) CD 10 para superar un obstáculo de una altura no superior a la cuarta parte de la distancia del salto, como puede ser un seto o un muro bajo. Si no lo logras, Chocarás contra el obstáculo.",
+            "Si aterrizas en terreno difícil tendrás que superar una Prueba de Destreza (Acrobacias) CD 10 para caer de pie. De lo contrario, quedarás Derribado."
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvisar",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Cualquier truco que no esté en esta lista",
+        description: "Realiza cualquier movimiento o acrobacia que puedas imaginar",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Cuando describas un tipo de movimiento no detallado en otra parte de las reglas, el DM te dirá si es posible y qué tipo de tirada tienes que hacer, si es que hay alguna, para determinar el éxito o el fracaso."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Terreno Dificil",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
-        reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        subtitle: "Modificador: +5 pies cada 5 pies",
+        reference: "Manual del Jugador, pg. 178, capítulo 7: Aventuras",
+        description: "Moverse por Terreno Difícil cuesta 5 pies adicionales por cada 5 pies de movimiento",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Mover una Criatura Agarrada",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
-        reference: "PHB, pg. 195.",
+        subtitle: "Modificador: mitad de velocidad",
+        description: "Arrastra o lleva a la criatura Agarrada contigo",
+        reference: "Manual del Jugador, pg. 191, capítulo 8: Combate",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "Cuando te mueves puedes arrastrar o transportar a la criatura agarrada, pero tu velocidad se reducirá a la mitad salvo si dicha criatura está dos o más categorías de tamaño por debajo de la tuya.",
+            "Consulta la Acción de Ataque para saber cómo agarrar a una criatura."
         ]
     }
 ]
