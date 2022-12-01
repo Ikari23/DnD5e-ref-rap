@@ -40,16 +40,25 @@ data_action = [
         ]
     },
     {
-        title: "Lanzar un Conjuro",
-        icon: "magic-swirl",
-        subtitle: "Tiempo de lanzamiento 1 Acción",
-        description: "Lanza un Conjuro con un tiempo de lanzamiento de 1 Acción",
+        title: "Ayudar",
+        icon: "telepathy",
+        subtitle: "Concede Ventaja a un aliado",
+        description: "Concede Ventaja a un aliado en una Prueba de Característica o Ataque",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "No puedes lanzar un Conjuro con tu Acción y otro diferente con tu Acción Adicional en el mismo turno, excepto si la Acción se utiliza para lanzar un Truco.",
-            "El objetivo de un Conjuro debe estar dentro del alcance del mismo. Para apuntar a algo, debes tener un camino despejado hacia él, por lo que no puede estar detrás de una Cobertura Total.",
-            "Los Conjuros con componentes materiales no consumen el material a menos que se indique explícitamente. A menos que se indique el coste de un material, puedes asumir que el coste es insignificante y que el material está simplemente disponible en una Bolsa de Componentes.",
-            "Algunos Conjuros requieren que mantengas la Concentración para mantener su magia activa. Si pierdes la Concentración, dicho Conjuro termina. Pierdes la Concentración en un Conjuro si lanzas otro que requiera Concentración o cuando estás Incapacitado. Cada vez que recibas daño, debes hacer una Tirada de Salvación de Constitución para mantener tu concentración. La CD es igual a 10 o la mitad del daño que recibes, lo que sea mayor."
+            "El objetivo gana Ventaja en la siguiente Prueba de Característica que realice para llevar a cabo la tarea en la que estás ayudando.",
+            "Alternativamente, el objetivo gana Ventaja en la siguiente tirada de ataque contra una criatura a 5 pies de ti.",
+            "La Ventaja dura hasta el comienzo de tu siguiente turno."
+        ]
+    },
+    {
+        title: "Buscar",
+        icon: "magnifying-glass",
+        subtitle: "",
+        description: "Dedicas tu atención a encontrar algo",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Dependiendo de la naturaleza de tu búsqueda, el DM puede hacerte hacer una Prueba de Sabiduría (Percepción) o una Prueba de Inteligencia (Investigación)."
         ]
     },
     {
@@ -94,40 +103,6 @@ data_action = [
         ]
     },
     {
-        title: "Ayudar",
-        icon: "telepathy",
-        subtitle: "Concede Ventaja a un aliado",
-        description: "Concede Ventaja a un aliado en una Prueba de Característica o Ataque",
-        reference: "Manual del Jugador, Capítulo 8: Combate",
-        bullets: [
-            "El objetivo gana Ventaja en la siguiente Prueba de Característica que realice para llevar a cabo la tarea en la que estás ayudando.",
-            "Alternativamente, el objetivo gana Ventaja en la siguiente tirada de ataque contra una criatura a 5 pies de ti.",
-            "La Ventaja dura hasta el comienzo de tu siguiente turno."
-        ]
-    },
-    {
-        title: "Usar Objeto",
-        icon: "snatch",
-        subtitle: "Interactua, usa habilidades especiales",
-        description: "Interactuar con un segundo objeto o utilizar las habilidades especiales del objeto",
-        reference: "Manual del Jugador, Capítulo 8: Combate",
-        bullets: [
-            "Puedes interactuar con un objeto de forma gratuita durante tu turno (como sacar un arma o abrir una puerta). Si quieres interactuar con un segundo objeto, utiliza esta Acción.",
-            "Cuando un objeto requiere tu Acción para su uso, también realizas esta Acción."
-        ]
-    },
-    {
-        title: "Usar Escudo",
-        icon: "round-shield",
-        subtitle: "Equipa o desequipa un escudo",
-        description: "Equipa o desequipa un escudo",
-        reference: "Manual del Jugador, Capítulo 5: Equipo",
-        bullets: [
-            "Un escudo siempre requiere una Acción para equiparse o desequiparse.",
-            "La armadura tarda varios minutos en equiparse o desequiparse."
-        ]
-    },
-    {
         title: "Esconderse",
         icon: "hood",
         subtitle: "",
@@ -142,13 +117,28 @@ data_action = [
         ]
     },
     {
-        title: "Buscar",
-        icon: "magnifying-glass",
-        subtitle: "",
-        description: "Dedicas tu atención a encontrar algo",
+        title: "Estabilizar una Criatura",
+        icon: "first-aid",
+        subtitle: "Primeros auxilios a una criatura",
+        description: "Evita que una criatura moribunda tenga que hacer Tiradas de Salvación contra Muerte",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "Dependiendo de la naturaleza de tu búsqueda, el DM puede hacerte hacer una Prueba de Sabiduría (Percepción) o una Prueba de Inteligencia (Investigación)."
+            "Haz una Prueba de Sabiduría (Medicina) con CD 10",
+            "Con un éxito, la criatura se estabiliza y ya no necesita hacer Tiradas de Salvación contra Muerte",
+            "Una criatura estable recupera 1 Punto de Golpe después de 1d4 horas"
+        ]
+    },
+    {
+        title: "Lanzar un Conjuro",
+        icon: "magic-swirl",
+        subtitle: "Tiempo de lanzamiento 1 Acción",
+        description: "Lanza un Conjuro con un tiempo de lanzamiento de 1 Acción",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "No puedes lanzar un Conjuro con tu Acción y otro diferente con tu Acción Adicional en el mismo turno, excepto si la Acción se utiliza para lanzar un Truco.",
+            "El objetivo de un Conjuro debe estar dentro del alcance del mismo. Para apuntar a algo, debes tener un camino despejado hacia él, por lo que no puede estar detrás de una Cobertura Total.",
+            "Los Conjuros con componentes materiales no consumen el material a menos que se indique explícitamente. A menos que se indique el coste de un material, puedes asumir que el coste es insignificante y que el material está simplemente disponible en una Bolsa de Componentes.",
+            "Algunos Conjuros requieren que mantengas la Concentración para mantener su magia activa. Si pierdes la Concentración, dicho Conjuro termina. Pierdes la Concentración en un Conjuro si lanzas otro que requiera Concentración o cuando estás Incapacitado. Cada vez que recibas daño, debes hacer una Tirada de Salvación de Constitución para mantener tu concentración. La CD es igual a 10 o la mitad del daño que recibes, lo que sea mayor."
         ]
     },
     {
@@ -175,15 +165,25 @@ data_action = [
         ]
     },
     {
-        title: "Estabilizar una Criatura",
-        icon: "first-aid",
-        subtitle: "Primeros auxilios a una criatura",
-        description: "Evita que una criatura moribunda tenga que hacer Tiradas de Salvación contra Muerte",
+        title: "Usar Escudo",
+        icon: "round-shield",
+        subtitle: "Equipa o desequipa un escudo",
+        description: "Equipa o desequipa un escudo",
+        reference: "Manual del Jugador, Capítulo 5: Equipo",
+        bullets: [
+            "Un escudo siempre requiere una Acción para equiparse o desequiparse.",
+            "La armadura tarda varios minutos en equiparse o desequiparse."
+        ]
+    },
+    {
+        title: "Usar Objeto",
+        icon: "snatch",
+        subtitle: "Interactua, usa habilidades especiales",
+        description: "Interactuar con un segundo objeto o utilizar las habilidades especiales del objeto",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "Haz una Prueba de Sabiduría (Medicina) con CD 10",
-            "Con un éxito, la criatura se estabiliza y ya no necesita hacer Tiradas de Salvación contra Muerte",
-            "Una criatura estable recupera 1 Punto de Golpe después de 1d4 horas"
+            "Puedes interactuar con un objeto de forma gratuita durante tu turno (como sacar un arma o abrir una puerta). Si quieres interactuar con un segundo objeto, utiliza esta Acción.",
+            "Cuando un objeto requiere tu Acción para su uso, también realizas esta Acción."
         ]
     },
     {

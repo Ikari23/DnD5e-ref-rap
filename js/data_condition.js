@@ -1,200 +1,201 @@
 data_condition = [
     {
-        title: "Blinded",
-        icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
-        bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
-        ]
-    },
-    {
-        title: "Charmed",
-        icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
-        bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
-        ]
-    },
-    {
-        title: "Deafened",
-        icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
-        reference: "PHB, pg. 290.",
-        bullets: [
-            "You automatically fail any ability check which requires hearing."
-        ]
-    },
-    {
-        title: "Exhaustion",
-        icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
-        bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
-        ]
-    },
-    {
-        title: "Frightened",
-        icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
-        reference: "PHB, pg. 290.",
-        bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
-        ]
-    },
-    {
-        title: "Grappled",
+        title: "Agarrado",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
-        reference: "PHB, pg. 290.",
+        subtitle: "Estás agarrado",
+        description: "Estás agarrado",
+        reference: "Manual del Jugador, Apéndice A: Estados",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "Tu velocidad se reduce a 0, y no puedes beneficiarte de ninguna bonificación a tu velocidad.",
+            "El Estado finaliza si tu agarrador está Incapacitado.",
+            "El Estado también finaliza si eres eliminado del alcance de tu agarrador."
         ]
     },
     {
-        title: "Incapacitated",
-        icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
-        reference: "PHB, pg. 290.",
+        title: "Apresado",
+        icon: "imprisoned",
+        subtitle: "Estás apresado",
+        description: "Estás apresado",
+        reference: "Manual del Jugador, Apéndice A: Estados",
         bullets: [
+            "Tu velocidad pasa a ser 0, y no puedes beneficiarte de ninguna bonificación a tu velocidad.",
+            "Tienes Desventaja en las Tiradas de Ataque.",
+            "Las Tiradas de Ataque contra ti tienen Ventaja.",
+            "Tienes Desventaja en las Tiradas de Salvación de Destreza."
+        ]
+    },
+    {
+        title: "Asustado",
+        icon: "sharp-smile",
+        subtitle: "Estás asustado",
+        description: "Estás asustado",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "Tienes desventaja en las Pruebas de Característica y en las Tiradas de Ataque mientras la fuente de tu miedo esté dentro de la línea de visión.",
+            "No puedes acercarte voluntariamente a la fuente de tu miedo."
+        ]
+    },
+    {
+        title: "Aturdido",
+        icon: "internal-injury",
+        subtitle: "Estás aturdido",
+        description: "Estás aturdido",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "Estás Incapacitado, no puedes moverte y sólo puedes hablar entrecortadamente.",
+            "Las Tiradas de Ataque contra ti tienen Ventaja.",
+            "Fallas automáticamente las Tiradas de Salvación de Fuerza y Destreza."
+        ]
+    },
+    {
+        title: "Cansancio",
+        icon: "crawl",
+        subtitle: "Estás cansado",
+        description: "El cansacio se mide en seis niveles",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "<table><tr><th>Nivel</th><th></th><th></th><th style='text-align:left'>Efecto</th></tr><tr><td>1</td><td></td><td></td><td>Desventaja en las Pruebas de Característica</td></tr><tr><td>2</td><td></td><td></td><td>Velocidad a la mitad</td></tr><tr><td>3</td><td></td><td></td><td>Desventaja en las Tiradas de Ataque y de Salvación</td></tr><tr><td>4</td><td></td><td></td><td>Puntos de Golpe Máximos a la mitad</td></tr><tr><td>5</td><td></td><td></td><td>Velocidad reducida a 0</td></tr><tr><td>6</td><td></td><td></td><td>Muerte</td></tr></table>",
+            "Sufres el efecto de tu nivel actual de Cansancio, así como todos los niveles inferiores.",
+            "Terminar un Descanso Largo reduce tu nivel de Cansancio en 1, siempre que también hayas comido y bebido",
+            "Además, resucitar de entre los muertos reduce el nivel de Cansancio de la criatura en 1."
+        ]
+    },
+    {
+        title: "Cegado",
+        icon: "one-eyed",
+        subtitle: "No puedes ver",
+        description: "No puedes ver",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "Fallas automáticamente cualquier Prueba de Característica que requiera la vista.",
+            "Tienes Desventaja en las Tiradas de Ataque.",
+            "Las Tiradas de Ataque contra ti tienen Ventaja."
+        ]
+    },
+    {
+        title: "Derribado",
+        icon: "crawl",
+        subtitle: "Estás derribado",
+        description: "Estás derribado",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "Tu única opción de movimiento es Arrastrarte, a menos que te levantes.",
+            "Tienes Desventaja en las Tiradas de Ataque.",
+            "Las Tiradas de Ataque contra ti tienen Ventaja si el atacante está a menos de 5 pies de ti, de lo contrario la Tirada de Ataque tiene Desventaja."
+        ]
+    },
+    {
+        title: "Ensordecido",
+        icon: "elf-ear",
+        subtitle: "No puedes escuchar",
+        description: "No puedes escuchar",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "Fallas automáticamente cualquier Prueba de Característica que requiera el oído."
+        ]
+    },
+    {
+        title: "Envenenado",
+        icon: "deathcab",
+        subtitle: "Estás envenenado",
+        description: "Estás envenenado",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "Tienes Desventaja en las Tiradas de Ataque y en las Pruebas de Característica."
+        ]
+    },
+    {
+        title: "Hechizado",
+        icon: "smitten",
+        subtitle: "Estás hechizado",
+        description: "Estás hechizado por otra criatura",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "No puedes atacar a tu hechizador ni apuntarle con habilidades dañinas o efectos mágicos.",
+            "Tu hechizador tiene Ventaja en las Pruebas de Característica para interactuar socialmente contigo."
+        ]
+    },
+    {
+        title: "Incapacitado",
+        icon: "internal-injury",
+        subtitle: "No puedes realizar Acciones o Reacciones",
+        description: "No puedes realizar Acciones o Reacciones",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+        ]
+    },
+    {
+        title: "Inconsciente",
+        icon: "coma",
+        subtitle: "Estás inconsciente",
+        description: "Estás inconsciente",
+        reference: "Manual del Jugador, Apéndice A: Estados",
+        bullets: [
+            "Estás Incapacitado, no puedes moverte ni hablar, y no eres consciente de tu entorno.",
+            "Sueltas lo que tienes en la mano y caes Derribado.",
+            "Las Tiradas de Ataque contra ti tienen Ventaja.",
+            "Cualquier ataque que te impacte es un Golpe Crítico si el atacante está a menos de 5 pies de ti.",
+            "Fallas automáticamente las Tiradas de Salvación de Fuerza y Destreza.",
         ]
     },
     {
         title: "Invisible",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
-        reference: "PHB, pg. 291.",
+        subtitle: "No puedes ser visto",
+        description: "No puedes ser visto sin la ayuda de la magia o un sentido especial",
+        reference: "Manual del Jugador, Apéndice A: Estados",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Con el fin de Esconderte, estás Muy Oscurecido.",
+            "Todavía puedes ser detectado por cualquier ruido que haga o por las huellas que deje.",
+            "Tienes Ventaja en las Tiradas de Ataque.",
+            "Las Tiradas de Ataque contra ti tienen Desventaja."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Paralizado",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Estás paralizado",
+        description: "No puedes hacer nada",
+        reference: "Manual del Jugador, Apéndice A: Estados",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Estás Incapacitado y no puedes moverte ni hablar.",
+            "Las Tiradas de Ataque contra ti tienen Ventaja.",
+            "Cualquier ataque que te impacte es un Golpe Crítico si el atacante está a menos de 5 pies de ti.",
+            "Fallas automáticamente las Tiradas de Salvación de Fuerza y Destreza."
         ]
     },
     {
-        title: "Petrified",
+        title: "Petrificado",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
-        reference: "PHB, pg. 291.",
+        subtitle: "Te transformas en piedra",
+        description: "Te transformas, junto con los objetos no mágicos que lleves puestos o que lleves contigo, en una sustancia sólida inanimada (normalmente piedra)",
+        reference: "Manual del Jugador, Apéndice A: Estados",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Tu peso se multiplica por diez y dejas de envejecer.",
+            "Está Incapacitado, no puede moverse ni hablar, y no es consciente de su entorno.",
+            "Las Tiradas de Ataque contra ti tienen Ventaja.",
+            "Fallas automáticamente las Tiradas de Salvación de Fuerza y Destreza.",
+            "Tienes Resistencia a todo el daño.",
+            "Eres Inmune al Veneno y a la enfermedad, aunque un veneno o enfermedad que ya esté en tu sistema sólo se suspende, no se neutraliza."
         ]
     },
     {
-        title: "Poisoned",
-        icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
-        reference: "PHB, pg. 292.",
-        bullets: [
-            "You have disadvantage on attack rolls and ability checks."
-        ]
-    },
-    {
-        title: "Prone",
-        icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
-        reference: "PHB, pg. 292.",
-        bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
-        ]
-    },
-    {
-        title: "Restrained",
-        icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
-        reference: "PHB, pg. 292.",
-        bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
-        ]
-    },
-    {
-        title: "Stunned",
-        icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
-        reference: "PHB, pg. 292.",
-        bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
-        ]
-    },
-    {
-        title: "Unconscious",
-        icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
-        reference: "PHB, pg. 292.",
-        bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
-        ]
-    },
-    {
-        title: "Dying",
+        title: "Moribundo",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
-        reference: "PHB, pg. 197.",
+        subtitle: "Estás moribundo",
+        description: "Has sido reducido a 0 Puntos de Golpe y estás muriendo",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Si te ves reducido a 0 Puntos de Golpe por un daño que no te mata, caes Inconsciente y estás Moribundo.",
+            "Si recibes alguna curación, inmediatamente vuelves a recuperar la conciencia y ya no estás Moribundo.",
+            "Al estar Moribundo, al comienzo de cada uno de tus turnos haces una Tirada de Salvación contra Muerte. Tira un d20 y no añadas ningún modificador.",
+            "Un 10 o más es un éxito, un 9 o menos es un fallo.",
+            "Al tercer éxito, te estabilizas.",
+            "En tu tercer fallo, mueres.",
+            "Sacar un 1 cuenta como dos fallos.",
+            "Al sacar un 20, recuperas inmediatamente 1 Punto de Golpe.",
+            "También puedes ser estabilizado por un aliado que realice la Acción Estabilizar y tenga éxito en una Prueba de Sabiduría (Medicina) CD 10.",
+            "Una vez estable, recuperas 1 Punto de Golpe después de 1d4 horas."
         ]
     }
 ]
