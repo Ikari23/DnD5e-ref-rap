@@ -27,6 +27,28 @@ data_action = [
         ]
     },
     {
+        title: "Agitar",
+        icon: "sword-spin",
+        subtitle: "Ataque cuerpo a cuerpo especial",
+        description: "Agitas tu arma para obtener un ataque adicional",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Realizas un ataque con arma adicional.",
+            "Tienes Desventaja en todas tus tiradas de ataque hasta el inicio de tu siguiente turno."
+        ]
+    },
+    {
+        title: "Desarmar",
+        icon: "sword-break",
+        subtitle: "Ataque cuerpo a cuerpo especial",
+        description: "Atacas directamente a un arma",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Si el ataque tiene éxito, no infliges daño y comparas tu Tirada de Ataque con la Prueba de Fuerza (Atletismo), Destreza (Juego de Manos) o Sabiduría (Perspicacia) del objetivo.",
+            " Si el atacante gana el enfrentamiento, el defensor deja caer el objeto. La criatura que tiene un arma más pesada y / o sujeta con las dos manos, obtiene ventaja en su prueba, las Armas Desarmadoras pueden evitarlo."
+        ]
+    },
+    {
         title: "Empuje",
         icon: "hand",
         subtitle: "Ataque cuerpo a cuerpo especial",
@@ -37,6 +59,16 @@ data_action = [
             "El objetivo de tu Empuje no debe ser más de un Tamaño mayor que el tuyo, y debe estar a tu alcance.",
             "Haces una Prueba de Fuerza (Atletismo) enfrentada a una Prueba de Fuerza (Atletismo) o Destreza (Acrobacias) del objetivo (el objetivo elige la Característica a utilizar).",
             "Si ganas el enfrentamiento, tiras al objetivo al suelo (Estado Derribado) o lo alejas 5 pies de ti."
+        ]
+    },
+    {
+        title: "Golpe de Escudo",
+        icon: "slashed-shield",
+        subtitle: "Ataque cuerpo a cuerpo especial",
+        description: "Realizas un ataque cuerpo a cuerpo con tu escudo, usándolo como un arma de mano secundaria.",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Si usas tu escudo como arma, pierdes su bonificador de CA hasta tu próxima acción (generalmente hasta el siguiente asalto) y no añades tu modificador por característica al daño del ataque adicional, a menos que ese modificador sea negativo."
         ]
     },
     {
