@@ -177,7 +177,7 @@ data_action = [
     {
         title: "Estabilizar una Criatura",
         icon: "first-aid",
-        subtitle: "Administrar primeros auxilios a una criatura moribunda",
+        subtitle: "Primeros auxilios a una criatura",
         description: "Evita que una criatura moribunda tenga que hacer Tiradas de Salvación contra Muerte",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [

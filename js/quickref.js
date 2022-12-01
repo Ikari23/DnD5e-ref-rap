@@ -59,7 +59,7 @@ function fill_section(data, parentname, type) {
 function init() {
     fill_section(data_movement, "basic-movement", "Mover");
     fill_section(data_action, "basic-actions", "Acción");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
+    fill_section(data_bonusaction, "basic-bonus-actions", "Acción Adicional");
     fill_section(data_reaction, "basic-reactions", "Reaction");
     fill_section(data_condition, "basic-conditions", "Condition");
     fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
