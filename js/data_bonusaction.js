@@ -15,7 +15,7 @@ data_bonusaction = [
     {
         title: "Lanzar un Conjuro",
         icon: "magic-swirl",
-        subtitle: "Tiempo de lanzamiento de 1 Acción Adicional",
+        subtitle: "Tiempo de 1 Acción Adicional",
         description: "Lanzar un Conjuro con un tiempo de lanzamiento de 1 Acción Adicional",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
@@ -26,7 +26,7 @@ data_bonusaction = [
     {
         title: "Usar un Atributo",
         icon: "embrassed-energy",
-        subtitle: "Algunos atributos usan acciones adicionales",
+        subtitle: "Algunos usan acciones adicionales",
         description: "Usar un atributo racial o de clase que utiliza una Acción Adicional",
         reference: "Consulta la página de la clase para obtener más información.",
         bullets: [

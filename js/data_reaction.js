@@ -1,36 +1,36 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Ataque de Oportunidad",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        subtitle: "El enemigo abandona tu alcance",
+        description: "Rara vez puedes moverte sin miramientos entre tus enemigos sin ponerte en peligro",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Desencadenante: la criatura enemiga que puedes ver sale de tu alcance.",
+            "Haz un ataque cuerpo a cuerpo contra la criatura provocadora.",
+            "El ataque interrumpe el movimiento de la criatura provocadora, y se produce justo antes de que la criatura salga de tu alcance.",
+            "Las criaturas no provocan un Ataque de Oportunidad cuando se teletransportan o cuando alguien o algo las mueve sin usar su Movimiento, Acción o Reacción."
         ]
     },
     {
-        title: "Readied action",
+        title: "Acción Preparada",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        subtitle: "Parte de tu Acción de Preparar",
+        description: "Ejecuta la reacción especificada por su acción Preparar",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Desencadenante: especificado por tu Acción <i>Preparar</i>."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lanzar un Conjuro",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
-        reference: "PHB, pg. 192.",
+        subtitle: "Tiempo de lanzamiento de 1 Reacción",
+        description: "Lanzas un Conjuro con un tiempo de lanzamiento de 1 Reacción",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Desencadenante: especificado por el Conjuro.",
+            "Para más detalles, consulta la Acción <i>Lanzar un Conjuro</i>."
         ]
     }
 ]
