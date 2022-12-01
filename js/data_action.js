@@ -40,6 +40,17 @@ data_action = [
         ]
     },
     {
+        title: "Apuntar",
+        icon: "bowman",
+        subtitle: "Ventaja a un ataque a distancia",
+        description: "Concede ventaja en la próxima tirada de ataque a distancia que realizas",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Si estás blandiendo un arma a distancia y no estás involucrado en un combate cuerpo a cuerpo, podrás gastar tu Acción para apuntar a un objetivo con una Prueba de Sabiduría (Percepción) enfrentada a la Prueba de Destreza (Acrobacias) o de Carisma (Engaño) del objetivo. Si lo consigues, obtienes Ventaja en tu primera Tirada de Ataque a Distancia.",
+            "Si realizas otro ataque antes de tu siguiente turno o si disparas a otro objetivo, perderás la Ventaja obtenida en esta Acción.",
+        ]
+    },
+    {
         title: "Ayudar",
         icon: "telepathy",
         subtitle: "Concede Ventaja a un aliado",
@@ -54,7 +65,7 @@ data_action = [
     {
         title: "Buscar",
         icon: "magnifying-glass",
-        subtitle: "",
+        subtitle: "Buscas algo",
         description: "Dedicas tu atención a encontrar algo",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
@@ -81,17 +92,6 @@ data_action = [
         ]
     },
     {
-        title: "Esquivar",
-        icon: "aura",
-        subtitle: "Aumenta las defensas",
-        description: "Te centras por completo en evitar los ataques",
-        reference: "Manual del Jugador, Capítulo 8: Combate",
-        bullets: [
-            "Hasta el comienzo de tu siguiente turno, cualquier Tirada de Ataque realizada contra ti tiene Desventaja si puedes ver al atacante, y haces Tiradas de Salvación de Destreza con Ventaja.",
-            "Pierdes este beneficio si estás <i>Incapacitado</i> o si tu velocidad se reduce a 0."
-        ]
-    },
-    {
         title: "Escapar",
         icon: "manacles",
         subtitle: "Escapar de un Agarre",
@@ -105,7 +105,7 @@ data_action = [
     {
         title: "Esconderse",
         icon: "hood",
-        subtitle: "",
+        subtitle: "Intentas esconderte",
         description: "Intentas esconderte",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
@@ -114,6 +114,17 @@ data_action = [
             "Cuando intentes esconderte, haz una Prueba de Destreza (Sigilo) y anota el resultado. Hasta que te descubran o dejes de esconderte, el total de esa Prueba se enfrenta a la Prueba de Sabiduría (Percepción) de cualquier criatura que busque activamente señales de tu presencia.",
             "Una criatura se da cuenta de ti aunque no esté buscando, a menos que tu Prueba de Sigilo sea mayor que su Percepción Pasiva.",
             "Fuera del combate, también puedes utilizar una Prueba de Destreza (Sigilo) para realizar actos como ocultarte de los enemigos, escabullirte de los guardias, escabullirte sin que te noten o acercarte sigilosamente a alguien sin que te vean ni te oigan."
+        ]
+    },
+    {
+        title: "Esquivar",
+        icon: "dodging",
+        subtitle: "Aumenta las defensas",
+        description: "Te centras por completo en evitar los ataques",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Hasta el comienzo de tu siguiente turno, cualquier Tirada de Ataque realizada contra ti tiene Desventaja si puedes ver al atacante, y haces Tiradas de Salvación de Destreza con Ventaja.",
+            "Pierdes este beneficio si estás <i>Incapacitado</i> o si tu velocidad se reduce a 0."
         ]
     },
     {
@@ -126,6 +137,17 @@ data_action = [
             "Haz una Prueba de Sabiduría (Medicina) con CD 10",
             "Con un éxito, la criatura se estabiliza y ya no necesita hacer Tiradas de Salvación contra Muerte",
             "Una criatura estable recupera 1 Punto de Golpe después de 1d4 horas"
+        ]
+    },
+    {
+        title: "Finta",
+        icon: "flying-dagger",
+        subtitle: "Ventaja a un ataque cuerpo a cuerpo",
+        description: "Te dedicas a engañar al objetivo para que no vea venir el próximo ataque, concediéndote ventaja",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Haz una prueba de Carisma (Engaño) enfrentada a una prueba de Destreza (Acrobacias) o Sabiduría (Perspicacia) de tu objetivo. Si tu resultado de la prueba excede el resultado de la prueba de tu objetivo, en tu próximo turno, obtienes Ventaja en tu primera tirada de ataque cuerpo a cuerpo contra él.",
+            "Si intentas fintar a un no-humanoide, tienes Desventaja en tu Prueba enfrentada"
         ]
     },
     {
@@ -152,6 +174,18 @@ data_action = [
             "Luego, eliges la Acción que realizarás en respuesta a ese desencadenante, o eliges avanzar a tu Velocidad en respuesta a él.",
             "Cuando se produce el desencadenante, puedes tomar tu Reacción justo después de que termine el desencadenante o ignorar el desencadenante.",
             "Cuando preparas un Conjuro, lo lanzas de forma normal pero mantienes su energía, que liberas con tu Reacción cuando se produce el desencadenante. Para ser preparado, un Conjuro debe tener un tiempo de lanzamiento de 1 acción, y mantener la magia del Conjuro requiere Concentración"
+        ]
+    },
+    {
+        title: "Sobrepasar",
+        icon: "guarded-tower",
+        subtitle: "Pasar a través de criatura hostil",
+        description: "Intenta moverte a través del espacio de una criatura hostil forzando tu paso",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Haz una prueba de Fuerza (Atletismo) enfrentada por la Fuerza (Atletismo) de la criatura hostil.",
+            "La criatura con el Tamaño más grande tiene Ventaja para la prueba de Sobrepasar.",
+            "Si el que se mueve gana el enfrentamiento, puede moverse a través del espacio de la criatura hostil una vez este turno."
         ]
     },
     {
@@ -184,6 +218,18 @@ data_action = [
         bullets: [
             "Puedes interactuar con un objeto de forma gratuita durante tu turno (como sacar un arma o abrir una puerta). Si quieres interactuar con un segundo objeto, utiliza esta Acción.",
             "Cuando un objeto requiere tu Acción para su uso, también realizas esta Acción."
+        ]
+    },
+    {
+        title: "Voltereta",
+        icon: "spinning-sword",
+        subtitle: "Pasar a través de criatura hostil",
+        description: "Intenta moverte a través del espacio de una criatura hostil eludiendo al oponente girando sobre él",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Haz una prueba de Destreza (Acrobacias) enfrentada a una prueba de Destreza (Acrobacias) de la criatura hostil",
+            "La criatura con el tamaño más grande tiene Desventaja para la Prueba de Voltereta (tanto si es la criatura en movimiento como la que se resiste).",
+            "Si el que se mueve gana el enfrentamiento, puede moverse a través del espacio de la criatura hostil una vez este turno."
         ]
     },
     {

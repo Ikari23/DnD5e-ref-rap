@@ -23,6 +23,28 @@ data_reaction = [
         ]
     },
     {
+        title: "Evadir",
+        icon: "dodge",
+        subtitle: "Evitar un ataque",
+        description: "Si un ataque cuerpo a cuerpo te impacta, antes de que se lance el daño puedes intentar esquivarlo",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Haz una prueba de Destreza (Acrobacias) y compararla con la Tirada de Ataque entrante. Si tu prueba supera la Tirada de Ataque, tienes éxito para evadir el ataque entrante, negando el daño.",
+            "Caes derribado en tu posición tras usar esta Reacción, tengas éxito o no.",
+        ]
+    },
+    {
+        title: "Parar",
+        icon: "sword-clash",
+        subtitle: "Evitar un ataque",
+        description: "Si un ataque cuerpo a cuerpo te impacta, antes de que se lance el daño puedes intentar parar el golpe con tu arma",
+        reference: "Manual del Jugador, Capítulo 8: Combate",
+        bullets: [
+            "Haz una prueba de Fuerza (Atletismo) y compararla con la Tirada de Ataque entrante para detener el ataque entrante con tu Arma. No puedes usar un arma más ligera que la del ataque. Si tu prueba supera la tirada de Ataque, paras el ataque entrante, negando el daño.",
+            "Tienes Desventaja en las Tiradas de Ataque, hasta el final de tu siguiente turno tras usar esta Reacción, tengas éxito o no.",
+        ]
+    },
+    {
         title: "Lanzar un Conjuro",
         icon: "magic-swirl",
         subtitle: "Tiempo de lanzamiento de 1 Reacción",
@@ -32,5 +54,6 @@ data_reaction = [
             "Desencadenante: especificado por el Conjuro.",
             "Para más detalles, consulta la Acción <i>Lanzar un Conjuro</i>."
         ]
-    }
+    },
+
 ]
