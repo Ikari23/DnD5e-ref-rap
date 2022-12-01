@@ -145,7 +145,7 @@ data_condition = [
         description: "No puedes ser visto sin la ayuda de la magia o un sentido especial",
         reference: "Manual del Jugador, Apéndice A: Estados",
         bullets: [
-            "Con el fin de Esconderte, estás Muy Oscurecido.",
+            "Con el fin de Esconderte, estás Muy Oscuro.",
             "Todavía puedes ser detectado por cualquier ruido que haga o por las huellas que deje.",
             "Tienes Ventaja en las Tiradas de Ataque.",
             "Las Tiradas de Ataque contra ti tienen Desventaja."

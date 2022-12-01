@@ -109,7 +109,7 @@ data_action = [
         description: "Intentas esconderte",
         reference: "Manual del Jugador, Capítulo 8: Combate",
         bullets: [
-            "No puedes esconderte de una criatura que pueda verte. Debes tener una Cobertura Total, estar en una zona Muy Oscurecida, ser Invisible o bloquear de otro modo la visión del enemigo.",
+            "No puedes esconderte de una criatura que pueda verte. Debes tener una Cobertura Total, estar en una zona Muy Oscura, ser Invisible o bloquear de otro modo la visión del enemigo.",
             "Si haces ruido (como gritar una advertencia o derribar un jarrón), delatas tu posición.",
             "Cuando intentes esconderte, haz una Prueba de Destreza (Sigilo) y anota el resultado. Hasta que te descubran o dejes de esconderte, el total de esa Prueba se enfrenta a la Prueba de Sabiduría (Percepción) de cualquier criatura que busque activamente señales de tu presencia.",
             "Una criatura se da cuenta de ti aunque no esté buscando, a menos que tu Prueba de Sigilo sea mayor que su Percepción Pasiva.",
